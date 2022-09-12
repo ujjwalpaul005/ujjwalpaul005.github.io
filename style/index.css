@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    background-color: #0a192f;
+    color: #70dabf;
+    
+}
+
+#home{
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#intro, #hero{
+    background: transparent;
+}
+
+#intro > p{
+    background: transparent;
+    font-size: 30px;
+}
+#hero > svg{
+    height: 400px;
+    width: 400px;
+    background: transparent;
+}
+
