@@ -13,33 +13,13 @@
 
   <body>
 
-    <div id="nav">
-
-        <div id="menu">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-        </div>
-
-        <div id="icon">
-            <img src="./Image/Icon.png">
-        </div>
-
-        <div id="link">
-            <a href="#"><span>01. </span>About</a>
-            <a href="#"><span>02. </span>Projects</a>
-            <a href="#"><span>03. </span>Games</a>
-            <a href="#"><span>04. </span>Contact</a>
-        </div>
-        <button>Resume</button>
-
-    </div>
+    <div id="nav"></div>
 
     <div id="home">
       
         <div id="intro">
             <p>Hi, I am Ujjwal</p>
-            <p>I am a Developer</p>
+            <p>I am a <span id="typing">Developer</span></p>
         </div>
 
         <div id="hero">
@@ -1205,13 +1185,31 @@
         </div>
     </div>
 
-    <div id="footer">
-        <p>Created from scratch with <img src="./Image/heart.png"></p>
-        <p>© Copyright 2022</p>
-        <p>All Right Reserved</p>
+    <div id="about">
+        <div id="image">
+            <img src="https://images.unsplash.com/photo-1635830625698-3b9bd74671ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60">
+        </div>
+        <div id="detail">
+            <h2>About Me</h2>
+            <p>Analytical, observing, detail-oriented problem
+                solver with good knowledge of HTML, CSS,
+                JavaScript, and JAVA.
+                Passionate about programming and strongly
+                interested in working in an organization, where
+                the experience gets enhanced.</p>
+            <div class="aboutCard">
+                <p>Name: <span>Ujjwal Paul</span></p>
+                <p>Email: <span><a href="mailto:ujjwalpaul005@gmail.com">ujjwalpaul005@gmail.com</a></span></p>
+                <p>Phone: <span><a href="tel:+919749463552">+91 9749463552</a></span></p>
+                <button>Resume</button>
+            </div>
+            
+        </div>
     </div>
+
+    <div id="footer"></div>
   </body>
 
-  <script src="./script/index.js"></script>
-  <script src="./script/comp.js"></script>
+  <script src="./script/index.js" type="module"></script>
+  <script src="./script/comp.js"></script> 
 </html>

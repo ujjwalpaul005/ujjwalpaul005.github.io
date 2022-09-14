@@ -2,12 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px 0px;
-    position: relative;
-
+    position:fixed;
+    top:0;
+    width: 100vw;
     box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
 }
 
+#icon{
+    margin: 10px 5%;
+}
 #icon > img{
     width: 60px;
 }
@@ -30,6 +33,7 @@
     border: 2px solid #14e956;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px 5%;
 }
 
 #menu{
@@ -53,9 +57,10 @@
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
     #menu{
         display: block;
+        margin: 10px 20px;
     }
 
     .line{
@@ -88,7 +93,7 @@
         left: 0;
         bottom: -100%;
         width: 100%;
-        height: 80vh;
+        height: 90vh;
         backdrop-filter: blur(8px);
         background-color: #0a192f6c;
         text-align: center;
@@ -102,7 +107,7 @@
     }
 
     #link.active{
-        bottom: 70px;
+        bottom: 0;
         left: 0;
     }
 
@@ -110,6 +115,10 @@
         gap: 5px;
         flex-direction: column;
         align-items: center;
+    }
+
+    #nav{
+        font-size: 20px;
     }
 
 }
