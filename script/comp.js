@@ -1,5 +1,5 @@
 let navbar = () =>{
-    return `
+    return`
         <div id="menu">
             <span class="line"></span>
             <span class="line"></span>

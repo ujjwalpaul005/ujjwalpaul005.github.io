@@ -1,4 +1,4 @@
-import {navbar,footer} from "./comp.js";
+import {navbar,footer} from "../script/comp.js"
 
 document.getElementById("nav").innerHTML = navbar();
 document.getElementById("footer").innerHTML = footer();
