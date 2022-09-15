@@ -7,11 +7,11 @@ let navbar = () =>{
         </div>
 
         <div id="icon">
-            <img src="./Image/Icon.png">
+            <a href="#"><img src="./Image/Icon.png"></a>
         </div>
 
         <div id="link">
-            <a href="#"><span>01. </span>About</a>
+            <a href="#about"><span>01. </span>About</a>
             <a href="#"><span>02. </span>Projects</a>
             <a href="#"><span>03. </span>Games</a>
             <a href="#"><span>04. </span>Contact</a>

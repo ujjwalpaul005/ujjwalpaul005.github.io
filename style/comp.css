@@ -5,14 +5,21 @@
     position:fixed;
     top:0;
     width: 100vw;
-    box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #0a192f69;
+    backdrop-filter: blur(5px);
+    box-shadow: #ffffff26 1.95px 1.95px 2.6px;
+}
+
+#nav  div{
+    background: transparent;
 }
 
 #icon{
     margin: 10px 5%;
 }
-#icon > img{
+#icon > a > img{
     width: 60px;
+    background: transparent;
 }
 
 #link{
@@ -20,10 +27,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: transparent;
 }
 
 #link > a{
     text-decoration: none;
+    background: transparent;
+}
+
+a>span{
+    background: transparent;
 }
 
 #nav > button{
@@ -91,14 +104,12 @@
         position: fixed;
         flex-direction: column;
         left: 0;
-        bottom: -100%;
+        top: 100vh;
         width: 100%;
         height: 90vh;
-        backdrop-filter: blur(8px);
-        background-color: #0a192f6c;
         text-align: center;
+        background-color: #0a192fd2 !important;
         transition: 0.5s;     
-        
         font-size: 18px;
     }
 
@@ -107,8 +118,7 @@
     }
 
     #link.active{
-        bottom: 0;
-        left: 0;
+        top: 10vh;
     }
 
     #footer{
