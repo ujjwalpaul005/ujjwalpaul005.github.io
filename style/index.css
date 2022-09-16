@@ -191,6 +191,73 @@ a{
 }
 
 
+#project{
+    text-align: center;
+}
+
+#allProject{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    margin: 50px 0 0;
+    gap: 3%;
+    align-items: center;
+}
+
+.projectCard{
+    background-color: aliceblue;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projectCard > img{
+    width: 350px;
+    border-radius: 20px;
+}
+
+.projectCard > .projectDetail{
+    background-color: transparent;
+}
+
+.projectCard > .projectDetail > p{
+    background-color: transparent;
+}
+.projectCard > .projectDetail > button{
+    width: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+#stats{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#stats > .statCard{
+    margin: 20px;
+}
+
+#gitCalender{
+    text-align: center;
+    margin: 50px 0;
+}
+#gitCalender > h2{
+    margin-bottom: 20px;
+}
+.calendar{
+    width: 90%;
+}
+
+.contrib-number{
+    margin: 10px 0;
+}
 
 @media only screen and (max-width: 426px){
     #hero > svg{
@@ -229,6 +296,23 @@ a{
         width: 50px;
         aspect-ratio: 1;
     }
+
+    .projectCard{
+        width: 300px;
+    }
+
+    .projectCard > img{
+        width : 250px;
+    }
+
+    #stats  img{
+        width:300px;
+    }
+
+    .contrib-number{
+        font-size: 18px !important;
+    }
+    
 }
 
 @media only screen and (min-width: 425px){
@@ -255,5 +339,11 @@ a{
         flex-direction: column;
         gap: 20px;
     }
+
+    #allProject{
+        grid-template-columns: repeat(1, minmax(0,1fr));
+        grid-template-rows: repeat(6, minmax(0,1fr));
+    }
+    
     
 }
