@@ -10,3 +10,10 @@ hamburger.addEventListener("click", ()=>{
     hamburger.classList.toggle("active");
     link.classList.toggle("active");
 })
+
+let button = document.querySelectorAll("button");
+
+button.forEach((x) => {
+    x.addEventListener("click", ()=>{
+    window.open(x.innerText)
+    })})

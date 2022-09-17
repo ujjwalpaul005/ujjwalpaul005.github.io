@@ -13,8 +13,8 @@ let navbar = () =>{
         <div id="link">
             <a href="#about"><span>01. </span>About</a>
             <a href="#project"><span>02. </span>Projects</a>
-            <a href="#"><span>03. </span>Games</a>
-            <a href="#"><span>04. </span>Contact</a>
+            <a href="../game"><span>03. </span>Games</a>
+            <a href="#contact"><span>04. </span>Contact</a>
         </div>
         <button>Resume</button>
     `
