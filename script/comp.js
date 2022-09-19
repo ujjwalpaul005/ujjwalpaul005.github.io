@@ -14,7 +14,7 @@ let navbar = () =>{
             <a href="#about"><span>01. </span>About</a>
             <a href="#project"><span>02. </span>Projects</a>
             <a href="#techStack"><span>03. </span>Skill</a>
-            <a href="#contact"><span>05. </span>Contact</a>
+            <a href="#contact"><span>04. </span>Contact</a>
         </div>
         <button>Resume</button>
     `
