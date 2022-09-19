@@ -204,7 +204,9 @@ a{
 }
 
 .projectCard{
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.358);
+    backdrop-filter: blur(5px);
+    z-index: 0;
     width: 400px;
     margin: auto;
     padding: 20px;
@@ -225,12 +227,23 @@ a{
 
 .projectCard > .projectDetail > p{
     background-color: transparent;
+    margin: 10px 0;
+}
+.projectCard > .projectDetail > p:nth-child(2){
+    text-align: left;
+    padding-left: 20px;
+}
+.projectCard  ol{
+    text-align: left;
+    padding-left: 40px;
+    background-color: transparent;
 }
 .projectCard > .projectDetail > button{
     width: 100px;
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
+    cursor: pointer;
 }
 
 
