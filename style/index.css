@@ -282,6 +282,10 @@ a{
     margin: 20px;
 }
 
+.contactCard > p{
+    margin: 10px 0;
+}
+
 .contactCard > button{
     width: 100px;
     margin: 30px;
