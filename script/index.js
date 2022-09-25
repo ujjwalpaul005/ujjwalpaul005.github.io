@@ -18,9 +18,19 @@ button.forEach((x) => {
         let link = x.innerText;
         let url;
         if(link == "Resume"){
-            url = "https://drive.google.com/file/d/1Q_tEP6AO6qxIWG850LAC4Fei4GPjjq5j/view?usp=sharing"
+            let file = 'File/Ujjwal_Paul_Resume.pdf'
+
+            let dwnld =  document.createElement('a');
+            dwnld.href = file;
+            dwnld.download = file.substring(file.lastIndexOf('/') + 1);
+            dwnld.click();
+            
+            // url = "https://drive.google.com/file/d/1Q_tEP6AO6qxIWG850LAC4Fei4GPjjq5j/view?usp=sharing"
+
         }else if(link == "GitHub"){
             url = "https://github.com/ujjwalpaul005"
+
+            window.open(url);
         }
         else if(link == "Github"){
 
@@ -38,6 +48,7 @@ button.forEach((x) => {
                 url = "https://github.com/ujjwalpaul005"
             }
 
+            window.open(url);
         }else if(link == "Live"){
 
             if(x.value == "blue"){
@@ -54,9 +65,11 @@ button.forEach((x) => {
                 url = "https://magenta-naiad-a3185e.netlify.app/"
             }
 
+            window.open(url);
         }
         else if(link == "LinkedIn"){
-            url = "https://www.linkedin.com/in/ujjwal-paul-204027235/"
+            url = "https://www.linkedin.com/in/ujjwal-paul-204027235/";
+            window.open(url);
         }
-        window.open(url);
+        
     })})
