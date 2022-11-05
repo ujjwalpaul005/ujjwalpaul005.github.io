@@ -224,10 +224,16 @@ a{
 .projectCard > .projectDetail{
     background-color: transparent;
 }
-
+.projectCard > p{
+    background-color: transparent;
+    margin: 10px 0;
+}
 .projectCard > .projectDetail > p{
     background-color: transparent;
     margin: 10px 0;
+}
+.projectCard > .projectDetail > p:nth-child(1){
+    text-align: left;
 }
 .projectCard > .projectDetail > p:nth-child(2){
     text-align: left;
