@@ -22,8 +22,9 @@
 
     <div id="home">
       <div id="intro">
-        <p>Hi, I am Ujjwal</p>
-        <p>I am a <span id="typing">Developer</span></p>
+        <p>Hi, I am Ujjwal,</p>
+        <p>a <span id="typing"></span></p>
+        <p></p>
       </div>
 
       <div id="hero">
@@ -1301,7 +1302,11 @@
           </p>
           <img src="./Image/bluemercury.png" />
           <div class="projectDetail">
-            <p>Description : An E-commerce Website for API fetched products.</p>
+            <p>Description : E-commerce website for external API-fetched products.
+              For Searching Products,
+              Filtering products by category, brand, price,
+              Sorting according to price,
+              Adding to cart and wishlist</p>
             <p>Features : <ol>1. Login & sign up</ol>
                           <ol>2. Cart featurs</ol>
                           <ol>3. wishlist</ol>
@@ -1319,7 +1324,12 @@
           </p>
           <img src="./Image/boat-lifestyle.png" />
           <div class="projectDetail">
-            <p>Description : An E-commerce Website for electronic devices.</p>
+            <p>Description : E-commerce website for electronic devices.
+              For
+              Filtering products by category,
+              Sorting according to price,
+              Adding to cart,
+              Ordering Items from the cart</p>
             <p>Features : <ol>1. Login & sign up</ol>
                           <ol>2. Cart featurs</ol>
                           <ol>3. payment</ol>
@@ -1461,6 +1471,8 @@
     <script type="module" src="./script/index.js"></script>
   </body>
 
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
   <script src="./script/comp.js"></script>
 
   <!-- Include the library. -->
@@ -1468,5 +1480,12 @@
 
   <script>
     GitHubCalendar(".calendar", "ujjwalpaul005", { responsive: true });
+
+    let type = new Typed("#typing", {
+      strings: ["Developer", "Coder", "Problem Solver"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    })
   </script>
 </html>
