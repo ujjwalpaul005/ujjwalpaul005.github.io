@@ -11,10 +11,11 @@ let navbar = () =>{
         </div>
 
         <div id="link">
-            <a href="#about"><span>01. </span>About</a>
-            <a href="#project"><span>02. </span>Projects</a>
-            <a href="#techStack"><span>03. </span>Skill</a>
-            <a href="#contact"><span>04. </span>Contact</a>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#techStack">Skill</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
         <button>Resume</button>
     `

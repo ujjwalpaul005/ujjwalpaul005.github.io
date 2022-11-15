@@ -6,6 +6,7 @@
     color: #70dabf;
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -47,7 +48,7 @@ a{
 }
 
 #about > #image > img{
-    width: 400px;
+    width: 350px;
     /* height: 400px; */
     /* object-fit: cover; */
     border-radius: 10%;
@@ -61,7 +62,7 @@ a{
     text-align: justify;
 }
 
-#detail  button{
+#detail  .buttonArea   button{
     display: inline;
     padding: 10px;
     background-color: #14e956;
@@ -72,6 +73,14 @@ a{
     cursor: pointer;
     margin: 10px 0;
     width: 100px;
+}
+
+.buttonArea{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
 }
 
 .aboutCard{
