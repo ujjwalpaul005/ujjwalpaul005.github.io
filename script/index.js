@@ -47,6 +47,8 @@ button.forEach((x) => {
                 url = "https://github.com/ujjwalpaul005"
             }else if(x.value == "payment"){
                 url = "https://github.com/ujjwalpaul005"
+            }else if(x.value == "e_com"){
+                url = "https://github.com/ujjwalpaul005/E-Commerce-rest-API"
             }
 
             window.open(url);
@@ -64,6 +66,8 @@ button.forEach((x) => {
                 url = "https://vocal-sprinkles-1c6b68.netlify.app/day.html"
             }else if(x.value == "payment"){
                 url = "https://magenta-naiad-a3185e.netlify.app/"
+            }else if(x.value == "e_com"){
+                url = "https://drive.google.com/file/d/1z_1mKt7nuNGfenRRa6stvjApsvQRdiov/view?usp=sharing"
             }
 
             window.open(url);
